@@ -6,7 +6,7 @@ words to represent and conveniently describe your models.
 One problem I came across while developing my models was keeping track of and organizing them. I found that I wanted
 to build my models iteratively and to add complexity as I went through the modeling process. For example, I may want to 
 target my data for logistic and linear analysis, in addition to running it through several types scaling, different
-approaches to automatic feature selection, as well as regressors and classsifiers. 
+approaches to automatic feature selection, as well as regressors and classifiers. 
 
 As you can imagine, this problem grew exponentially with each step, and I found it difficult to keep it all in my head. 
 
@@ -45,8 +45,8 @@ The tools I used to develop this approach are the `deque()` and `dict()` collect
 function.
 
 ## The Code
-This block iterates through `dict_3bit` containing all models developed thus far (of up to 2<sup>3</sup> complexity) 
-creates 5 versions of each and appends them to `dict_6bit`.
+This block iterates through `dict_3bit` containing all models developed thus far (of up to 2<sup>3</sup> complexity), 
+creates 5 versions of each, and appends them to `dict_6bit`.
 
 ```python
 # import deque because you'll need it
@@ -212,7 +212,7 @@ dict_6bit = {
     }
 }
 ```
-Where `'afs'` contains a DataFrame of features and their respective filtering scores. `X` is now a subset of significant
+Where `'afs'` contains a DataFrame of features and their respective filtering scores. `'X'` is now a subset of significant
 features. You're welcome to check out the 
 <a href='https://github.com/jrobio/assignment2/blob/master/notebooks/assignment2.ipynb'>code</a> of my full assignment 
 if you are interested in how I implemented my filtering methods.
