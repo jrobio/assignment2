@@ -68,11 +68,11 @@ dict_3bit = {
 # 011 - Recursive Feature Elimination Cross Validation (rfe)
 # 100 - Forward Feature Elimination (ffe)
 
-def get_chi(bit_str: str, d):
+def get_chi(bit_str, d):
     pass
 
 
-def get_rfi(bit_str: str, d):
+def get_rfi(bit_str, d):
     pass
 
 
@@ -80,7 +80,7 @@ def get_rfecv(bit_str, d):
     pass
 
 
-def get_ffe(bit_str: str, d):
+def get_ffe(bit_str, d):
     pass
 
 
